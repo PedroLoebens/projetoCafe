@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/tela.js"></script>
+</head>
+
+<body onload="loadCafes()"> 
+    <div class="blococentral">
+        <h1>Tipos de Café</h1>
+        <div id="filtro">
+            Descrição
+            <form action="" class="pesquisa"></form>
+            <input type="serach" list="historico" placeholder="Pesquisar Café">
+
+        </div>
+        <datalist id="historico">
+            <option value="Curto"></option>
+            <option value="Longo"></option>
+            <option value="Capuccino"></option>
+        </datalist>
+        <table border="1" class="coffe">
+            <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>Descrição</td>
+                    <td>Ações</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                
+            </tbody>
+        </table>
+        <a class="newcoffe" href="tela02.html" target="_parent"><button>Novo Tipo</button></a>
+    </div>
+</body>
+
+</html>
